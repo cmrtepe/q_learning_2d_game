@@ -33,7 +33,7 @@ class Grid_Game:
         line.set_data(data[..., :num])
         return line
 
-    def draw_state(self, state=None, pause=False): # From 6.036 course material
+    def draw_state(self, state=None, pause=False): # From 6.036  course material
         def _update(self, state, pause):
             if self.ax is None:
                 plt.ion()

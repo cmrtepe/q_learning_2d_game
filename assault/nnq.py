@@ -11,7 +11,7 @@ from dist import DDist
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
-def make_neural_net(state_dims, num_hidden_layers, num_units): # Based on: Code provided for MIT 6.036 Intro.
+def make_neural_net(state_dims, num_hidden_layers, num_units): # Based on:  Code provided for MIT 6.036 Intro.
                                                                # to Machine Learning HW10
 
     model = []

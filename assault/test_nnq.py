@@ -6,7 +6,7 @@ from nnq import NNQ, value_iteration, Q_learn_batch, greedy, sim_episode
 def test_learn_play(d = 10, num_layers = 2, num_units = 100,
                     eps = 0.5, iters = 50, batch_epochs=10,
                     num_episodes = 10, episode_length = 100, nnq_lr=3e-3):
-    iters_per_value = 1 if iters <= 10 else int(iters / 10.0) # Based on: test_learn_play test function in
+    iters_per_value = 1 if iters <= 10 else int(iters / 10.0) # Based on:  test_learn_play test function in
                                                               # MIT 6.036 HW10.
     scores = []
     def interact(q, iter=0):
